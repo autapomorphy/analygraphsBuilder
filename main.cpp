@@ -42,6 +42,7 @@ int main(int argc, char* argv[])
 
 
 
+    std::cout << "Reading images ..." << std::endl;
 
     if (argc == 5) {
         //two input files
@@ -133,6 +134,8 @@ int main(int argc, char* argv[])
     }
 
     imwrite(output_name, output_image);
+
+    std::cout << "Anaglyph images generated: " << output_name <<std::endl;
 
     end = clock();
     std::cout << "time consuming: " << (end - start) << " ms" << std::endl;

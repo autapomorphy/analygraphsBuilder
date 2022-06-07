@@ -25,6 +25,8 @@ color_analygraph
 
 half_color_analygraph
 
+3dtv_optimized_analygraph
+
 dubois_analygraph
 
 roscolux_analygraph

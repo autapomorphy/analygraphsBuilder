@@ -25,3 +25,9 @@ roscolux_analygraph
 
 ## Examples
 
+Method: dubois_analyraph
+input:
+![input file:](https://github.com/autapomorphy/analygraphsBuilder/blob/master/sample_image/Kasuga_Lantern_pair.jpeg)
+
+output:
+![output file:](https://github.com/autapomorphy/analygraphsBuilder/blob/master/sample_image/output_full.jpg)

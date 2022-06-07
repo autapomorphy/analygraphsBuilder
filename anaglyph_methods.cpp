@@ -62,6 +62,20 @@ matrixPair getAnaglyphMatrices(string name) {
 
 	}
 
+	if (name == "3dtv_optimized_analygraph") {
+		requested_matrix_pair.valid_name = true;
+		requested_matrix_pair.matrix_left
+			<< 0, 0.7, 0.3,
+			0, 0, 0,
+			0, 0, 0;
+		requested_matrix_pair.matrix_right
+			<< 0, 0, 0,
+			0, 1, 0,
+			0, 0, 1;
+
+
+	}
+
 	if (name == "dubois_analygraph") {
 		requested_matrix_pair.valid_name = true;
 		requested_matrix_pair.matrix_left

@@ -7,8 +7,9 @@
 #include "time.h"
 
 #include "anaglyph_methods.h"
+
+
 using namespace cv;
-using Eigen::MatrixXd;
 
 int main(int argc, char* argv[])
 {
@@ -95,7 +96,7 @@ int main(int argc, char* argv[])
     if (anaglyph_matrices.valid_name == false) {
 
         std::cout << "Unknown Anaglyph Method Name: " << method_name <<std::endl;
-        std::cout << "Supported methods: true_analygraph, gray_analygraph, color_analygraph, half_color_analygraph, dubois_analygraph, roscolux_analygraph" << std::endl;
+        std::cout << "Supported methods: true_analygraph, gray_analygraph, color_analygraph, half_color_analygraph, 3dtv_optimized_analygraph, dubois_analygraph, roscolux_analygraph" << std::endl;
         return 1;
     }
 
